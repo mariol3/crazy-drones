@@ -3,7 +3,7 @@ package com.teamdashogno.model;
 import java.io.File;
 
 /**
- * Created by mario on 14/02/16.
+ * Created by Mario Grimaldi <mario.grimaldi89@gmail.com> with <3
  */
 public class InputParser {
 
