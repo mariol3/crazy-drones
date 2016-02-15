@@ -13,4 +13,11 @@ public class Simulation {
     private List<Warehouse> warehouses = new ArrayList<Warehouse>();
     private List<Drone> drones = new ArrayList<Drone>();
 
+    public Simulation(long turns, List<CustomerOrder> customerOrders, List<Warehouse> warehouses, List<Drone> drones) {
+        this.turns = turns;
+        this.customerOrders = customerOrders;
+        this.warehouses = warehouses;
+        this.drones = drones;
+    }
+
 }
